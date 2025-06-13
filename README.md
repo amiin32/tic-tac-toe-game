@@ -15,12 +15,12 @@ A console-based Tic Tac Toe game in Python featuring Player vs Player and Player
 1. Clone the repository:
 
    ```
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/amin32/tic-tac-toe-game.git
    ```
 2. Navigate to the project directory:
 
    ```
-   cd your-repo-name
+   cd tic-tac-toe-game
    ```
 3. Run the game:
 
