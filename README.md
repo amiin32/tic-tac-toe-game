@@ -37,3 +37,8 @@ A console-based Tic Tac Toe game in Python featuring Player vs Player and Player
 ## Requirements
 
 * Python 3.13.3
+
+---
+
+## Stargazers over time
+[![Stargazers over time](https://starchart.cc/mo-ahmed/tic-tac-toe-game.svg?variant=adaptive)](https://starchart.cc/mo-ahmed/tic-tac-toe)
