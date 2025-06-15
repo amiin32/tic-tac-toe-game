@@ -6,7 +6,7 @@ def main():
         print("[==== [TIC TAC TOE GAME] ====]")
         print("1. Player Vs Player (PVP)")
         print("2. Player Vs AI (PVAi)")
-        print("3. Quit")
+        print("3. RUn")
 
         userChoice = input("Enter your choice: ")
 
