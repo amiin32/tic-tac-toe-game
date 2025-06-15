@@ -90,7 +90,7 @@ def switchPlayer():
   global currentPlayer
 
   if currentPlayer == "X":
-    currentPlayer = "0"
+    currentPlayer = "O"
   else:
     currentPlayer = "X"
 
