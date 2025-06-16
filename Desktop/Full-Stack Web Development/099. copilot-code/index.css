@@ -1,0 +1,90 @@
+:root {
+  --background-color: #fff;
+  --text-color: #000;
+  --header-background: #333;
+  --header-text-color: #fff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+header {
+  background: var(--header-background);
+  color: var(--header-text-color);
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header ul {
+  list-style: none;
+  padding: 0;
+}
+
+header ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header ul li a {
+  color: var(--header-text-color);
+  text-decoration: none;
+}
+
+header button {
+  background: var(--header-text-color);
+  color: var(--header-background);
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+header button:hover {
+  opacity: 0.8;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.project {
+  margin: 1rem 0;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+form label {
+  display: block;
+  margin: 0.5rem 0 0.2rem;
+}
+
+form input, form textarea, form button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  background: var(--header-background);
+  color: var(--header-text-color);
+  text-align: center;
+  padding: 1rem 0;
+}
+
+body.dark-mode {
+  --background-color: #121212;
+  --text-color: #f0f0f0;
+  --header-background: #222;
+  --header-text-color: #f0f0f0;
+}
