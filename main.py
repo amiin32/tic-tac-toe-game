@@ -13,7 +13,7 @@ def main():
         if userChoice == "1":
             pvp.start_game()
         elif userChoice == "2":
-            print("1. Medium")
+            print("1. Medium Ai")
             print("2. Smart Ai")
             aichoice = int(input("Enter your choice: "))
             if aichoice == 1:
