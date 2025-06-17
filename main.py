@@ -3,7 +3,7 @@ import mid_ai
 import smart_ai
 def main():
     while True:
-        print("[==== [TIC TAC TOE GAME] ====]")
+        print("==== TIC TAC TOE GAME ====")
         print("1. Player Vs Player (PVP)")
         print("2. Player Vs AI (PVAi)")
         print("3. Quit")
